@@ -1,6 +1,6 @@
 body{
-	background-image: url("images/Bg.jpg");
-	/* background-repeat: no-repeat; */
+	background-image: url("Bg.jpg");
+	background-repeat: no-repeat;
 }
 
 .topnav {
@@ -110,3 +110,6 @@ body{
 	width:100px;
 	height: 80px;
 }
+
+.cards { display: flex; flex-wrap: wrap; justify-content: space-between; } div.card { flex: 0 0 30%; box-sizing: border-box; color:black; margin: 0.5rem .18em; background-color: antiquewhite; align-items: center; font-size: medium; } .card img{ width:100px; height: 80px; }
+
